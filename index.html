@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinay Kumar B</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./Main.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.18.0/matter.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+
+  <!-- Main Container -->
+  <div class="main-container slick-container ">
+
+    <!-- Section 1 -->
+    <div class="section position-relative">
+      <div class="Section-div">
+        <div class="position-absolute w-100 top-0">
+          <header>
+            <h3>VINAY KUMAR BOLLAMPALLI</h3>
+            <div class="header-right">
+              <a href="#about">
+                <h4>ABOUT</h4>
+              </a>
+              <a href="#skills">
+                <h4>SKILLS</h4>
+              </a>
+              <a href="#projects">
+                <h4>WORK</h4>
+              </a>
+              <a href="#contact">
+                <h4>CONTACT</h4>
+              </a>
+
+              <button class="pulse-button" onclick="startPulseAnimation(this)"></button>
+            </div>
+          </header>
+        </div>
+        <div class="content g-3">
+          <div class="content-1 content-div">
+            <h1>FIGMA / ADOBE XD</h1>
+            <div class="content-img figma"></div>
+          </div>
+          <div class="content-1 content-div justify-content-end">
+            <div class="content-img uiuxdesign"></div>
+            <h1>UI/UX DESIGNER</h1>
+          </div>
+          <div class="content-1 content-div">
+            <h1>WEB</h1>
+            <div class="content-img development"></div>
+            <h1>DEVELOPER</h1>
+
+          </div>
+        </div>
+        <div class="position-absolute w-100 bottom-0">
+          <div class="tags">
+            <h4>[ 2000 ]</h4>
+            <h4>[ PASSIONATE ]</h4>
+            <h4>[ AVAILABLE ]</h4>
+            <h4>[ RIGOROUS ]</h4>
+            <h4>[ 2025 ]</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 2 -->
+    <div class="section" id="about">
+      <div class="Section-div">
+        <div class="info-div col-12">
+          <p class="col-6 about-para">
+            Vinay Kumar is a UI/UX Designer and Web Developer focused on creating intuitive digital
+            experiences across healthcare and education. Skilled in user research, wireframing, prototyping,
+            and high-fidelity mockups using Figma and Adobe XD, he combines creativity with functionality
+            to solve real user problems.
+          </p>
+          <div class="col-6 d-flex justify-content-center align-items-center">
+            <img src="./Vinay.png" alt="Vinay Kumar">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section 3 -->
+    <div class="section" id="skills">
+      <div class="Section-div">
+        <div class="tags">
+          <h4>[ Skills ]</h1>
+
+        </div>
+        <div class="maincontainer">
+          <div id="canvasContainer"></div>
+
+        </div>
+      </div>
+    </div>
+    <!-- Projects Starts Here -->
+
+    <!-- ✦ INTRO SECTION ✦ -->
+    <div class="section position-relative" id="projects">
+      <div class="Section-div">
+        <div class="tags position-absolute w-100 top-0">
+          <h4>[ UX DESIGN ]</h4>
+          <h4>[ STRATEGY ]</h4>
+          <h4>[ PROJECTS ]</h4>
+          <h4>[ RESEARCH ]</h4>
+          <h4>[ DEVELOPMENT ]</h4>
+        </div>
+
+        <div class="col-12 row">
+          <div class="col-3">
+            <div class="demo-project-left"></div>
+          </div>
+          <div class="col-6 projects-intro">
+            <p>I design digital experiences that connect logic and emotion — creating interfaces that not only work, but
+              feel right.</p>
+            <h1>FROM 2022</h1>
+            <h1>WITH PASSION</h1>
+            <p>My journey began with a fascination for how people interact with technology. Since then, I’ve designed
+              products across education and healthcare — simplifying complex systems into clear, human-centered
+              experiences.</p>
+            <p>Here are a few selected projects that reflect my approach — research-driven, accessible, and purpose-led.
+            </p>
+          </div>
+          <div class="col-3 position-relative">
+            <div class="demo-project-right"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✦ PROJECT 01 ✦ -->
+    <div class="section info-section position-relative">
+      <div class="Section-div">
+        <div class="tags position-absolute justify-content-center w-100 top-0">
+          <h4>[ PROJECT 01 ]</h4>
+        </div>
+        <div class="col-12 project-div">
+          <div class="col-8 pe-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2>Edmatix</h2>
+              <h3>Education Management System</h3>
+            </div>
+            <hr>
+            <p>Edmatix is a mobile application designed for parents to track their child’s academics, attendance, fees,
+              communication, and school updates. The goal was to redesign the experience to make everyday tasks simpler,
+              faster, and easier to understand for parents across different age groups and digital comfort levels.</p>
+
+            <div class="project-details-divs">
+              <div>
+                <ul>
+                  <li>UX Focus</li>
+                </ul>
+                <p>
+                <ol>
+                  <li>Analyzed user pain points and usage patterns to understand where parents struggled.</li>
+                  <li>Rebuilt the information architecture to create a clearer, more organized navigation structure.
+                  </li>
+                  <li>Designed new user flows for Dashboard, Attendance, Classwork, Results, and Fee Payments.</li>
+                  <li>Focused on clarity, readability, and reducing cognitive load through clean layout and improved
+                    visual hierarchy.</li>
+                </ol>
+                </p>
+              </div>
+              <div>
+                <ul>
+                  <li>Impact</li>
+                </ul>
+                <p>
+                <ol>
+                  <li>Improved ease of navigation across academic and fee modules based on internal testing.</li>
+                  <li>Reduced repeated support queries from parents regarding key actions like paying fees and viewing
+                    results.</li>
+                  <li>Increased overall usability by simplifying flows and making important information easier to
+                    access.</li>
+                </ol>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 mt-4">
+              <p><strong>Devices:</strong> Mobile App</p>
+              <p><strong>Year:</strong> 2025</p>
+            </div>
+          </div>
+          <div class="col-4 project-image-div edmatix"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✦ PROJECT 02 ✦ -->
+    <div class="section info-section position-relative">
+      <div class="Section-div">
+        <div class="tags position-absolute justify-content-center w-100 top-0">
+          <h4>[ PROJECT 02 ]</h4>
+        </div>
+        <div class="col-12 project-div">
+          <div class="col-4 project-image-div cooper"></div>
+          <div class="col-8 ps-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2>Cooper Surgical</h2>
+              <h3>Patient-Centered Healthcare Platform</h3>
+            </div>
+            <hr>
+            <p>Cooper Surgical’s digital platform supports patients through appointment booking, onboarding, medical
+              questionnaires, and accessing educational content. The objective was to streamline the patient journey and
+              reduce friction in steps that typically cause confusion or delay.</p>
+
+            <div class="project-details-divs">
+              <div>
+                <ul>
+                  <li>UX Focus</li>
+                </ul>
+                <p>
+                <ol>
+                  <li>Designed appointment and onboarding journeys with clearer step-by-step guidance.</li>
+                  <li>Improved long, complex medical forms through grouping, progressive disclosure, and consistent
+                    patterns.</li>
+                  <li>Designed responsive layouts optimized for both desktop and mobile experiences.</li>
+                  <li>Worked closely with global stakeholders to validate requirements and iterate on experience
+                    improvements.</li>
+                </ol>
+                </p>
+              </div>
+              <div>
+                <ul>
+                  <li>Impact</li>
+                </ul>
+                <p>
+                <ol>
+                  <li>Reduced friction in appointment booking by making flows simpler and more predictable.</li>
+                  <li>Enhanced readability of medical content, improving patient understanding and reducing form
+                    abandonment.</li>
+                  <li>Delivered a cleaner, more confidence-building patient experience aligned with healthcare
+                    standards.</li>
+                </ol>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 mt-4">
+              <p><strong>Devices:</strong> Mobile App – Web App</p>
+              <p><strong>Year:</strong> 2024 – 2025</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ✦ PROJECT 03 ✦ -->
+    <div class="section info-section position-relative">
+      <div class="Section-div">
+        <div class="tags position-absolute justify-content-center w-100 top-0">
+          <h4>[ PROJECT 03 ]</h4>
+        </div>
+        <div class="col-12 project-div">
+          <div class="col-8 pe-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2>Mubadala Healthcare</h2>
+              <h3>Digital Patient Engagement System</h3>
+            </div>
+            <hr>
+            <p>
+              Mubadala Healthcare’s digital platform enables patients to manage appointments, view medical results,
+              handle e-check-ins, access health records, and request reports. The project focused on making medical
+              information easy to access and understand while improving the efficiency of self-service actions.
+            </p>
+
+            <div class="project-details-divs">
+              <div>
+                <ul>
+                  <li>UX Focus</li>
+                </ul>
+                <p>
+                <ol>
+                  <li>Designed intuitive flows for Booking Appointments, E-Check-In, Results, Health Records, and
+                    Medication Refill.</li>
+                  <li>Simplified medical reports and test results using structured layouts and improved hierarchy.</li>
+                  <li>Built responsive design patterns ensuring a consistent experience across devices.</li>
+                  <li>Collaborated with developers and QA to ensure accurate implementation of complex UX patterns.</li>
+                </ol>
+                </p>
+              </div>
+              <div>
+                <ul>
+                  <li>Impact</li>
+                </ul>
+                <p>
+                <ol>
+                  <li>Improved patient self-service efficiency by reducing steps and making tasks more intuitive.</li>
+                  <li>Increased clarity of medical data, helping users understand results faster.</li>
+                  <li>Reduced dependency on manual support by streamlining appointment and report workflows.</li>
+
+                </ol>
+                </p>
+              </div>
+            </div>
+
+            <div class="col-12 mt-4">
+              <p><strong>Devices:</strong> Web App</p>
+              <p><strong>Year:</strong> 2022 – 2024</p>
+            </div>
+          </div>
+          <div class="col-4 project-image-div mubadala"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education -->
+    <div class="section info-section position-relative">
+      <div class="Section-div" style="gap: 64px;">
+        <div class="tags position-absolute justify-content-center w-100 top-0">
+          <h4>[ EDUCATION ]</h4>
+        </div>
+
+        <!-- B.Tech Section -->
+        <div class="col-12 project-div">
+          <div class="col-8 pe-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2>B.Tech in Computer Science</h2>
+              <h3>ICFAI University</h3>
+            </div>
+            <hr>
+            <p>Built a strong foundation in technology and problem-solving, which continues to shape my user-centered
+              design approach.</p>
+
+            <div class="col-12 mt-4">
+              <p><strong>Specialization:</strong> Computer Science & Engineering</p>
+              <p><strong>Year:</strong> 2018 – 2022</p>
+            </div>
+          </div>
+          <div class="col-4 project-image-div icfai"></div>
+        </div>
+
+        <!-- Intermediate Section -->
+        <div class="col-12 project-div">
+          <div class="col-4 project-image-div narayana"></div>
+          <div class="col-8 ps-5">
+            <div class="d-flex justify-content-between align-items-center">
+              <h2>Intermediate – MPC</h2>
+              <h3>Narayana Junior College</h3>
+            </div>
+            <hr>
+            <p>Developed analytical and logical reasoning skills that now influence how I structure intuitive user
+              experiences.</p>
+
+            <div class="col-12 mt-4">
+              <p><strong>Stream:</strong> Mathematics, Physics, Chemistry (MPC)</p>
+              <p><strong>Year:</strong> 2016 – 2018</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section info-section position-relative" id="contact">
+      <div class="Section-div">
+        <div class="position-absolute w-100 top-0">
+          <div class="tags" style="    padding: 64px 64px 0px; ">
+
+            <h4>[ VINAY KUMAR BOLLAMPALLI ]</h4>
+            <a href="#about">
+              <h4>ABOUT</h4>
+            </a>
+            <a href="#skills">
+              <h4>SKILLS</h4>
+            </a>
+            <a href="#projects">
+              <h4>WORK</h4>
+            </a>
+            <a href="#contact">
+              <h4>CONTACT</h4>
+            </a>
+            <h4>[ &#169; 2025 ]</h4>
+
+          </div>
+        </div>
+        <div class="col-12 row contact align-items-center">
+          <div class="col-6 contact-left">
+            <h1>LET'S START </h1>
+            <h1 class="text-end">CREATING</h1>
+            <h1>TOGETHER</h1>
+          </div>
+          <div class="col-6 d-flex justify-content-center">
+            <form id="contact-form" class="col-10">
+              <input type="text" name="full_name" class="inputfield" placeholder="WHAT'S YOUR NAME?" required>
+              <input type="email" name="email" class="inputfield" placeholder=" WHAT'S YOUR EMAIL ADDRESS?" required>
+              <input type="number" name="phone" class="inputfield" placeholder="AND WHAT'S YOUR MOBILE NUMBER?"
+                required>
+              <textarea name="message" class="inputfield" cols="30" rows="10" placeholder="HOW CAN I HELP?"
+                required></textarea>
+              <button type="submit" value="Send Message" class="send-btn mt-4"> SEND IT!</button>
+            </form>
+          </div>
+        </div>
+        <div class="social-main">
+          <a href="https://www.linkedin.com/in/vinaykumarbollampalli/" target="_blank">
+            <div class="social">
+              <i class="bi bi-linkedin"></i>
+            </div>
+          </a>
+          <a href="https://www.instagram.com/vinaykumar_2019?igsh=bjhqYTRrYnRkcDV0&utm_source=qr" target="_blank">
+            <div class="social">
+              <i class="bi bi-instagram"></i>
+            </div>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100004449317093" target="_blank">
+            <div class="social">
+              <i class="bi bi-facebook"></i>
+            </div>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="scrollTopBtn" title="Go to top">↑</button>
+
+
+  <!-- Section 1 Toast -->
+  <div class="Toast-div" id="toastDiv1">
+    🌗 <strong>Switch up the vibe!</strong> Tap the glowing ring to explore new color moods.
+  </div>
+
+  <!-- Section 2 Toast -->
+  <div class="Toast-div" id="toastDiv2">
+    🖐️ <strong>Go ahead, interact!</strong> You can drag and toss the skill capsules around.
+  </div>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="./Main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+  <script>
+    (function () {
+      emailjs.init('CJEJEL-mpxqp36ECr'); // Your EmailJS public key
+    })();
+  </script>
+</body>
+
+</html>
